@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+<body class="bg-[#1e293b] flex items-center justify-center min-h-screen p-4">
+  <div class="rounded-lg overflow-hidden w-full max-w-md bg-[#334155] grid grid-cols-5 gap-1 p-2">
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">c</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">(</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">)</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">mod</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">n</button>
+
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">7</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">8</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">9</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">÷</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">√</button>
+
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">4</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">5</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">6</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">×</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">x²</button>
+
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">1</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">2</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">3</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">−</button>
+    <button class="bg-[#f97316] rounded-md py-4 text-center text-lg font-normal text-white">=</button>
+
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">0</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">.</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">%</button>
+    <button class="text-sky-400 bg-[#334155] rounded-md py-4 text-center text-lg font-normal">+</button>
+  </div>
+</body>
+</html>
